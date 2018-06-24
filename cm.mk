@@ -21,7 +21,7 @@ $(call inherit-product, device/nvidia/s8515/s8515.mk)
 PRODUCT_DEVICE := s8515
 PRODUCT_NAME := cm_s8515
 PRODUCT_BRAND := nvidia
-PRODUCT_MODEL := WAX CM11
+PRODUCT_MODEL := WAX CM12
 PRODUCT_MANUFACTURER := NVIDIA
 
 # Enable Torch
