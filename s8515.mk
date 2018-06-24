@@ -126,6 +126,10 @@ PRODUCT_PACKAGES += \
     charger \
     charger_res_images
 
+#Perms
+PRODUCT_COPY_FILES += \
+	device/nvidia/s8515/permissions/platform.xml:system/etc/permissions/platform.xml 
+
 # Filesystem management tools
 PRODUCT_PACKAGES += \
     make_ext4fs \
